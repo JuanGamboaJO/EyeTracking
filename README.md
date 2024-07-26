@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio contiene la base de datos y los archivos necesarios para correr el programa.
+Este repositorio contiene la base de datos y los archivos necesarios para correr el script que se encarga de predecir la posición donde estes viendo en la pantalla (Resolución de 1600x900).
 
 ## Estructura del Proyecto
 
