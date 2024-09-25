@@ -38,3 +38,6 @@ Este repositorio contiene la base de datos y los archivos necesarios para correr
     - Usa las imágenes en `ojoderecho` y `ojoizquierdo` para el entrenamiento.
     - Usa las imágenes en `testeyesderecho` y `testeyesizquierdo` para el test.
     - Los modelos entrenados se guardarán en la carpeta `xModels`.
+
+4. **Ejecutable**
+    - "Para usar el programa sin la necesidad de instalar librerías o Python, puedes descargar el ejecutable desde este link.. (https://drive.google.com/file/d/1NeGz-CNXEafsPqvC8eph8F-J2UJk-D3m/view?usp=sharing)
