@@ -53,14 +53,14 @@ def dataLoad(path, want = 0):
 def eyetrack(xshift = 70, yshift=60, frameShrink = 0.15):
     print("Funcionando")
     modelx= ConvNet().to(device)
-    modelx.load_state_dict(torch.load("xModels/kernel_7_36_x.plt",map_location=device))
+    modelx.load_state_dict(torch.load("xModels/kernel_7_x_30.plt",map_location=device))
     modelx.eval()
 
     modely= ConvNet().to(device)
-    modely.load_state_dict(torch.load("xModels/Kernel_7_33_y.plt",map_location=device))
+    modely.load_state_dict(torch.load("xModels/Kernel_7_y_31.plt",map_location=device))
     modely.eval()
 
-    alpha = 0.1 
+    alpha = 0.3
 
     smoothed_x = None
     smoothed_y = None
@@ -95,7 +95,7 @@ def eyetrack(xshift = 70, yshift=60, frameShrink = 0.15):
         if emotion_results:
             emotion = emotion_results[0]['emotions']
             print(emotion['happy'])
-            if emotion['happy'] > 0.5 :  # Si la probabilidad de felicidad es mayor a 0.5
+            if emotion['happy'] > 0.7 :  # Si la probabilidad de felicidad es mayor a 0.5
                 print('Se da click')
                 pyautogui.click()
                 continue
