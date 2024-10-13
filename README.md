@@ -40,4 +40,4 @@ Este repositorio contiene la base de datos y los archivos necesarios para correr
     - Los modelos entrenados se guardarán en la carpeta `xModels`.
 
 4. **Ejecutable**
-    - "Para usar el programa sin la necesidad de instalar librerías o Python, puedes descargar el ejecutable desde este link.. (https://drive.google.com/file/d/1NeGz-CNXEafsPqvC8eph8F-J2UJk-D3m/view?usp=sharing)
+    - "Para usar el programa sin la necesidad de instalar librerías o Python, puedes descargar el ejecutable desde este link.. (https://drive.google.com/file/d/1zmPIChlm_VH6pzE_genice9BVEQbv6Jl/view?usp=sharing)
